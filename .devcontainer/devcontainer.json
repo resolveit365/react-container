@@ -3,9 +3,9 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"remoteUser": "node",
-	"containerUser": "node",
-	// "postCreateCommand": "chmod u+x ./.devcontainer/postCreateCommands.sh && ./.devcontainer/postCreateCommands.sh",
+	"remoteUser": "vscode",
+	"containerUser": "vscode",
+	"postCreateCommand": "chmod u+x ./.devcontainer/postCreateCommands.sh && ./.devcontainer/postCreateCommands.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
