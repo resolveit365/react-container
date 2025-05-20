@@ -13,16 +13,16 @@
 				"dbaeumer.vscode-eslint",
 				"esbenp.prettier-vscode",
 				"formulahendry.auto-rename-tag",
-				"formulahendry.code-runner",
-				"visualstudioexptteam.intellicode-api-usage-examples",
+				// "formulahendry.code-runner",
+				// "visualstudioexptteam.intellicode-api-usage-examples",
 				"visualstudioexptteam.vscodeintellicode",
-				"ms-azuretools.vscode-azureresourcegroups",
-				"ms-azuretools.vscode-azurefunctions",
+				// "ms-azuretools.vscode-azureresourcegroups",
+				// "ms-azuretools.vscode-azurefunctions",
 				"GitHub.copilot",
 				"mhutchie.git-graph",
-				"Postman.postman-for-vscode",
-				"github.vscode-github-actions",
-				"ms-azuretools.vscode-azurestorage"
+				// "Postman.postman-for-vscode",
+				// "ms-azuretools.vscode-azurestorage"
+				"github.vscode-github-actions"
 			]
 		}
 	}
