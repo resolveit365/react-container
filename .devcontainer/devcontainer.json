@@ -1,0 +1,29 @@
+{
+	"name": "React Container",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"containerUser": "node",
+	// "postCreateCommand": "chmod u+x ./.devcontainer/postCreateCommands.sh && ./.devcontainer/postCreateCommands.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"christian-kohler.npm-intellisense",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"formulahendry.auto-rename-tag",
+				"formulahendry.code-runner",
+				"visualstudioexptteam.intellicode-api-usage-examples",
+				"visualstudioexptteam.vscodeintellicode",
+				"ms-azuretools.vscode-azureresourcegroups",
+				"ms-azuretools.vscode-azurefunctions",
+				"GitHub.copilot",
+				"mhutchie.git-graph",
+				"Postman.postman-for-vscode",
+				"github.vscode-github-actions",
+				"ms-azuretools.vscode-azurestorage"
+			]
+		}
+	}
+}
