@@ -1,6 +1,11 @@
-import MyComponent from "./Components/MyComponent";
+import DateComponent from "./Components/DateComponent";
+import DigitalClock from "./Components/DigitalClock";
 
 export default function App() {
-  return <MyComponent />;
+  return (
+    <>
+      <DateComponent />
+      <DigitalClock />
+    </>
+  );
 }
-// export default App;
