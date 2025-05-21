@@ -14,6 +14,8 @@ export default function MyComponent() {
       ]);
       setCarMake("");
       setCarModel("");
+    } else {
+      alert("Please enter both make and model.");
     }
   };
   const handleRemoveCar = (index) => {
