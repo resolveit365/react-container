@@ -1,5 +1,7 @@
+import MyComponent from "./MyComponent";
+
 export default function App() {
-  return <></>;
+  return <MyComponent />;
 }
 
 // export default App;
