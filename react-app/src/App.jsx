@@ -1,7 +1,6 @@
-import ToDoList from "./Components/ToDoList";
+import MyComponent from "./Components/MyComponent";
 
 export default function App() {
-  return <ToDoList />;
+  return <MyComponent />;
 }
-
 // export default App;
