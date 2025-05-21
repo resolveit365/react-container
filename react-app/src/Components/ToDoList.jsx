@@ -53,6 +53,10 @@ export default function ToDoList() {
 
   return (
     <div className="todo-list">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/190/190411.png"
+        alt="To-Do List Icon"
+      />
       <h1>To-Do List</h1>
       <input
         id="task-input"
