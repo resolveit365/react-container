@@ -1,11 +1,13 @@
-import DateComponent from "./Components/DateComponent";
-import DigitalClock from "./Components/DigitalClock";
+import React from "react";
+import MyContext from "./Components/MyContext";
+import ComponentA from "./Components/ComponentA";
 
 export default function App() {
+  const sharedValue = "Brad Peyton";
+
   return (
-    <>
-      <DateComponent />
-      <DigitalClock />
-    </>
+    <MyContext.Provider value={sharedValue}>
+      <ComponentA />
+    </MyContext.Provider>
   );
 }
