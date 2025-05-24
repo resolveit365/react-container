@@ -13,5 +13,6 @@ ENV DEVCONTAINER=true
 
 # Expose port 5173 for Vite. Vite uses port 5173 by default for development
 EXPOSE 5173
+EXPOSE 4173
 
 USER vscode
