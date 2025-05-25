@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-export default function ColorPicker({ color, onChange }) {
-  const [selectedColor, setSelectedColor] = useState(color);
+export default function ColorPicker() {
+  const [selectedColor, setSelectedColor] = useState("");
 
   const handleColorChange = (event) => {
     const newColor = event.target.value;
     setSelectedColor(newColor);
-    onChange(newColor);
+    // onChange(newColor);
   };
 
   return (

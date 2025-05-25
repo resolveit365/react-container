@@ -28,6 +28,7 @@ h1 {
 }
 .color-display p {
   font-size: 2rem;
+  font-weight: bold;
   text-align: center;
 }
 label {
